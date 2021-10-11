@@ -114,7 +114,7 @@ function spawnShrubs() {
 
     // var shrub = createSprite(camera.position+500,330,40,10);
     // var shrub = createSprite(camera.position.x+500,330,40,10);
-    var shrub = createSprite(camera.positionX+500,330,40,10);
+    var shrub = createSprite(camera.position.x+500,330,40,10);
     // var shrub = createSprite(Camera.position.x+500,330,40,10);
 
     shrub.velocityX = -(6 + 3*score/100)
